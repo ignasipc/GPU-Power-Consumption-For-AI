@@ -1,0 +1,26 @@
+------------------------------------------------------------------------------------------------------------------------
+Día 7-11-2025
+--------------
+He empezado a usar el entorno.
+He buscado monitores para la cpu y gpu, que son los que necesito manejar.
+
+He encontrado:
+    Para la cpu -> top y htop
+    Para la gpu -> nvidia-sml, creado ayudar al manejo y monitoreo de las GPU de Nvidia
+
+He hecho una primera prueba de carga de 5min con carga de cpu con el comando (1) ya que el servidor voluminoso no tiene gpu.
+Las pruebas se hacen con un medidor de voltaje conectado a la toma de corriente, que va conectado a un portátil con
+Windows 7, sin conexión a internet, por tanto, no está sincronizado con el tiempo real actual. El servidor sí que está
+conectado a la red, en consecuencia, tiene el reloj siempre actualizado. El servidor es antiguo y tiene una version
+muy vieja (0.4.12), tengo que tenerlo en cuenta para según que comando que no puede actualizarse a versiones más
+recientes.
+
+
+
+------------------------------------------------------------------------------------------------------------------------
+Día 25-11-2025
+--------------
+He creado el repositorio de Github para ayudarme a seguir mi progresso en el trabajo y tener un historial de todo lo que
+vaya haciendo.
+
+He creado el script en python para graficar los resultados obtenidos del consumo de W.

@@ -1,0 +1,5 @@
+Aquí iré acumulando las líneas de comando que ejecutaré en el servidor.
+
+1 -->
+sysbench --max-requests=1000000000 --num-threads=20 --max-time=300 --test=cpu --cpu-max-prime=1000000000 run
+
