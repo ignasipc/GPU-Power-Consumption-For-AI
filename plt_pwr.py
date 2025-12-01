@@ -2,9 +2,10 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 def main():
+    name = 'test1_ignasi'
     # Cargar el archivo
     df = pd.read_csv(
-        "test1_ignasi.txt",  # Cambia por el nombre de tu archivo
+        "%s.txt" % name,  # Cambia por el nombre de tu archivo
         sep="\t",  # Separación por tabulación
         decimal=",",  # Convierte comas a decimales reales
         engine="python"  # Permite separadores irregulares
@@ -27,6 +28,7 @@ def main():
     plt.title("Consumo de Watios a lo largo del tiempo")
     plt.grid(True)
     plt.tight_layout()
+    plt.savefig('Plots/Plot_%s.png' % name)
     plt.show()
 
 
