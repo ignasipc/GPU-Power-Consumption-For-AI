@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------------------------------------
-Día 7-11-2025
+Día 07-11-2025
 --------------
 He empezado a usar el entorno.
 He buscado monitores para la cpu y gpu, que son los que necesito manejar.
@@ -23,4 +23,16 @@ Día 25-11-2025
 He creado el repositorio de Github para ayudarme a seguir mi progresso en el trabajo y tener un historial de todo lo que
 vaya haciendo.
 
-He creado el script en python para graficar los resultados obtenidos del consumo de W.
+He creado el script en python para graficar y guardar en un archivo .png los resultados obtenidos del consumo de W.
+
+
+
+------------------------------------------------------------------------------------------------------------------------
+Día 02-12-2025
+--------------
+He mirado el monitor que usaré para la gpu de Nvidia, el nvidia-sml, para desarrollar el script.
+También usaré algunos scripts para apuntar toda la información que encuentro necesaria sobre la GPU y del nvidia-sml.
+
+Link to SML manuals: https://developer.nvidia.com/system-management-interface
+
+

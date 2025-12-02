@@ -1,0 +1,31 @@
+Aquí iré acumulando las líneas de comando que ejecutaré en el servidor.
+
+1 -->
+sysbench --max-requests=1000000000 --num-threads=20 --max-time=300 --test=cpu --cpu-max-prime=1000000000 run
+
+
+
+2 -->
+nvidia-smi [OPTION1 [ARG1]] [OPTION2 [ARG2]] ...
+
+Metrics can be consumed directly by users via stdout, or provided by file via CSV and XML formats for scripting purposes.
+
+nvidia-smi --version -->
+
+nvidia-smi -L --> (Debería salir solo una GPU)
+
+nvidia-smi -B --> (Debería estar vacío)
+
+-f FILE --> para insertarlo en un .txt
+
+nvidia-smi --help-query-gpu -->
+
+En el apartado: Device Monitoring -> 3) Select metrics to be displayed
+
+nvidia-smi dmon -s p u -d 1 --format csv
+
+nvidia-smi --query-gpu=timestamp,power.draw,utilization.gpu --format=csv -l 1 -f gpu_log.csv
+
+Para el power.draw -> mirar si es posible obtener power.draw.average y power.draw.instantaneous
+
+
