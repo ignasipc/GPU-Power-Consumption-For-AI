@@ -1,31 +1,31 @@
 Aquí iré acumulando las líneas de comando que ejecutaré en el servidor.
 
-1 -->
+1 --> Carga para la PCU
 sysbench --max-requests=1000000000 --num-threads=20 --max-time=300 --test=cpu --cpu-max-prime=1000000000 run
 
 
 
-2 -->
+2 --> Nvidia-SMI
 nvidia-smi [OPTION1 [ARG1]] [OPTION2 [ARG2]] ...
 
 Metrics can be consumed directly by users via stdout, or provided by file via CSV and XML formats for scripting purposes.
 
-nvidia-smi --version -->
+nvidia-smi --version --> SMI version: 580.95.05 y CUDA version: 13.0
 
-nvidia-smi -L --> (Debería salir solo una GPU)
+nvidia-smi -L --> (Debería salir solo una GPU) Correcto, sólo sale una, RTX 4080 SUPER
 
-nvidia-smi -B --> (Debería estar vacío)
+nvidia-smi -B --> (Debería estar vacío) Correcto, está vacío
 
 -f FILE --> para insertarlo en un .txt
 
 nvidia-smi --help-query-gpu -->
 
+---
 En el apartado: Device Monitoring -> 3) Select metrics to be displayed
 
-nvidia-smi dmon -s p u -d 1 --format csv
+nvidia-smi dmon -s pu -o T -f test.csv --format csv
 
+(El comando que sigue a continuación és la que va mejor ya que indica el % de uso de la GPU)
 nvidia-smi --query-gpu=timestamp,power.draw,utilization.gpu --format=csv -l 1 -f gpu_log.csv
 
-Para el power.draw -> mirar si es posible obtener power.draw.average y power.draw.instantaneous
-
-
+Para el power.draw -> mirar si es posible obtener power.draw.average (Sí, pero no hace mucha diferencia creo) y power.draw.instantaneous (No funciona)

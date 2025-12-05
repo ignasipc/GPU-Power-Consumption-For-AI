@@ -36,3 +36,17 @@ También usaré algunos scripts para apuntar toda la información que encuentro 
 Link to SML manuals: https://developer.nvidia.com/system-management-interface
 
 
+
+------------------------------------------------------------------------------------------------------------------------
+Día 05-12-2025
+--------------
+Hoy he ido al laboratorio, pero he tenido problemas de internet (el cable estaba mal conectado) y me han parado el
+trabajo. He actualizado el ordenador de mesa del laboratorio sudo apt get update, etc. Luego he sacado la información que
+había preparado el día 2-12 y preparado/refinado los comandos que usaré.
+
+
+TODO:
+    - Preguntarle a Belén por si es necesario usar el medidor de voltaje si nvidia-smi ya tiene un medidor de volaje de sólo la GPU
+    - Mirar si se puede obtener en el timestamp solamente HH:MM:SS
+
+
