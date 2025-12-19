@@ -29,3 +29,13 @@ nvidia-smi dmon -s pu -o T -f test.csv --format csv
 nvidia-smi --query-gpu=timestamp,power.draw,utilization.gpu --format=csv -l 1 -f gpu_log.csv
 
 Para el power.draw -> mirar si es posible obtener power.draw.average (Sí, pero no hace mucha diferencia creo) y power.draw.instantaneous (No funciona)
+
+
+------------------------------------------------------------------------------------------------------------------------
+CARGAS PARA LA GPU
+-------------------
+
+GPU burn (NVIDIA)
+$ gpu-burn -tc 1800 (300 = 5 min, 1800 = 30 min, 3600 = 1h)
+
+Phoronix Test Suite

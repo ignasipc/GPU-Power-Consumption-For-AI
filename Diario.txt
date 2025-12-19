@@ -45,8 +45,19 @@ trabajo. He actualizado el ordenador de mesa del laboratorio sudo apt get update
 había preparado el día 2-12 y preparado/refinado los comandos que usaré.
 
 
+
+------------------------------------------------------------------------------------------------------------------------
+Día 19-12-2025
+--------------
+Hoy he preguntado a Belén mis dudas y sí es verdad que el software de nvidia tiene su propio monitor con la medición del
+voltage de consumo instantáneo de la GPU, pero el problema reside en que como es un monitor software, puede contener
+errores, provocando alomejor que en algunos casos obtengamos un consumo mayor de la GPU que de la caja entera. Por este
+motivo, tendré que usar ambas medidas de monitorización. Ahora pues, prepararé para juntar ambas medidas en una misma
+gráfica.
+
+
+
 TODO:
-    - Preguntarle a Belén por si es necesario usar el medidor de voltaje si nvidia-smi ya tiene un medidor de volaje de sólo la GPU
     - Mirar si se puede obtener en el timestamp solamente HH:MM:SS
 
 
