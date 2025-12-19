@@ -55,6 +55,12 @@ errores, provocando alomejor que en algunos casos obtengamos un consumo mayor de
 motivo, tendré que usar ambas medidas de monitorización. Ahora pues, prepararé para juntar ambas medidas en una misma
 gráfica.
 
+Ya está listo para para aplicar los benchmarks y observar las gráficas. He agrupado los datos de los archivos del
+consumo, sin ningún tipo de medida para que tengan el mismo timestamp o algo por el estilo, simplemente empiezan desde
+el segundo 0 a la vez, pero siempre tendrán tiempos totales distintos a menos que lo cambie a mano.
+
+En la primera prueba, he obtenido la monitorización durante 30 minutos del benchmark gpu-burn.
+
 
 
 TODO:
