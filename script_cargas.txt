@@ -36,6 +36,6 @@ CARGAS PARA LA GPU
 -------------------
 
 GPU burn (NVIDIA)
-$ gpu-burn -tc 1800 (300 = 5 min, 1800 = 30 min, 3600 = 1h)
+$ gpu-burn -tc 1800 (300 = 5 min, 1800 = 30 min, 3600 = 1h)     # Este script ejecuta una prueba de rendimiento carga al 100% la gpu en el tiempo seleccionado
 
 Phoronix Test Suite

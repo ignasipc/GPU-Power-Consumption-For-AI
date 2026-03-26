@@ -8,8 +8,8 @@ He encontrado:
     Para la cpu -> top y htop
     Para la gpu -> nvidia-sml, creado ayudar al manejo y monitoreo de las GPU de Nvidia
 
-He hecho una primera prueba de carga de 5min con carga de cpu con el comando (1) ya que el servidor voluminoso no tiene gpu.
-Las pruebas se hacen con un medidor de voltaje conectado a la toma de corriente, que va conectado a un portátil con
+He hecho una primera prueba de carga de 5min con carga de cpu con el comando (1) ya que el servidor voluminoso no tiene
+gpu. Las pruebas se hacen con un medidor de voltaje conectado a la toma de corriente, que va conectado a un portátil con
 Windows 7, sin conexión a internet, por tanto, no está sincronizado con el tiempo real actual. El servidor sí que está
 conectado a la red, en consecuencia, tiene el reloj siempre actualizado. El servidor es antiguo y tiene una version
 muy vieja (0.4.12), tengo que tenerlo en cuenta para según que comando que no puede actualizarse a versiones más
@@ -41,8 +41,8 @@ Link to SML manuals: https://developer.nvidia.com/system-management-interface
 Día 05-12-2025
 --------------
 Hoy he ido al laboratorio, pero he tenido problemas de internet (el cable estaba mal conectado) y me han parado el
-trabajo. He actualizado el ordenador de mesa del laboratorio sudo apt get update, etc. Luego he sacado la información que
-había preparado el día 2-12 y preparado/refinado los comandos que usaré.
+trabajo. He actualizado el ordenador de mesa del laboratorio sudo apt get update, etc. Luego he sacado la información
+que había preparado el día 2-12 y preparado/refinado los comandos que usaré.
 
 
 
@@ -63,7 +63,19 @@ En la primera prueba, he obtenido la monitorización durante 30 minutos del benc
 
 
 
+------------------------------------------------------------------------------------------------------------------------
+Día 12-02-2026
+--------------
+Llevo mucho tiempo sin aparecer por el despacho, entre las navidades, exámenes y recuperaciones, no he tenido tiempo.
+He realizado una monitorización del gpu-burn de 1h, creando dos archivos: gpu-burn-total-w_log.txt y
+gpu-burn_log.csv. Durante esta monitorización se le ha aplicado durante los últimos 30 min una carga del 100% a la gpu.
+
+
+
+------------------------------------------------------------------------------------------------------------------------
+Día 26-03-2026
+--------------
+Hoy he empezado a crear los gráficos e intentado instalar Phoronix test suite para realizar proximas monitorizaciones.
+
+
 TODO:
-    - Mirar si se puede obtener en el timestamp solamente HH:MM:SS
-
-

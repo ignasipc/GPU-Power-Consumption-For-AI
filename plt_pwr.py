@@ -2,8 +2,8 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 def main():
-    name_hw = 'consumo_pc_19_12_2025.txt'   # Nombre del archivo del monitor Hardware
-    name_sw = 'gpu_log_19_12_2025.csv'          # Nombne del archivo del monitor Software
+    name_hw = 'gpu-burn-total-w_log.txt'       # Nombre del archivo del monitor Hardware                                # Cambiar esta línea
+    name_sw = 'gpu-burn_log.csv'          # Nombne del archivo del monitor Software                                     # Cambiar esta línea
 
     # Cargar el archivo
     df_hw = pd.read_csv(
@@ -15,7 +15,7 @@ def main():
 
     df_sw = pd.read_csv("Monitoring_logs/%s" % name_sw)
 
-    # Convertir W a número y quitar signo negativo
+    # Convertir W a número y quitar signo negativo (Si precede)
     df_hw["W"] = df_hw["W"].astype(float).abs()
     df_sw["W"] = df_sw[" power.draw [W]"].str.replace("W", "").astype(float)
 
@@ -40,7 +40,7 @@ def main():
     plt.title("Consumo de Vatios a lo largo del tiempo (Monitor SW)")
     plt.grid(True)
     plt.tight_layout()
-    plt.savefig('Plots/Plot_power_consumption.png')
+    plt.savefig('Plots/Plot_power_consumption_gpu-burn.png')                                                            # Cambiar esta línea
     plt.show()
 
     # Graficamos los resultados del monitor SW (% de uso)
@@ -51,7 +51,7 @@ def main():
     plt.title("Porcentaje de uso de la GPU")
     plt.grid(True)
     plt.tight_layout()
-    plt.savefig('Plots/Plot_GPU_usage.png')
+    plt.savefig('Plots/Plot_GPU_usage_gpu-burn.png')                                                                    # Cambiar esta línea
     plt.show()
 
 
