@@ -35,7 +35,9 @@ Para el power.draw -> mirar si es posible obtener power.draw.average (Sí, pero 
 CARGAS PARA LA GPU
 -------------------
 
-GPU burn (NVIDIA)
+GPU burn (NVIDIA):
 $ gpu-burn -tc 1800 (300 = 5 min, 1800 = 30 min, 3600 = 1h)     # Este script ejecuta una prueba de rendimiento carga al 100% la gpu en el tiempo seleccionado
 
-Phoronix Test Suite
+Phoronix Test Suite:
+phoronix-test-suite benchmark machine-learning
+phoronix-test-suite benchmark llm

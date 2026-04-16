@@ -76,6 +76,17 @@ gpu-burn_log.csv. Durante esta monitorización se le ha aplicado durante los úl
 Día 26-03-2026
 --------------
 Hoy he empezado a crear los gráficos e intentado instalar Phoronix test suite para realizar proximas monitorizaciones.
+No lo he conseguido instalar.
 
+
+
+------------------------------------------------------------------------------------------------------------------------
+Día 26-03-2026
+--------------
+Hoy sigo intentando instalar Phoronix test suite. He encontrado la página web https://wiki.ubuntu.com/PhotronixTestSuite
+que explica como instalarlo. No me ha ayudado gran cosa, lo he conseguido mediante el .zip de la web oficial y un poco
+probando. Ahora ya instalado, los suites son un grupo de tests o benchmarks sobre una característica en concreto.
+Gracias a la web openbenchmarking.org he encontrado justo lo que quería, y he podido encontrar fácilmente los suites que
+acabaré utilizando, que son llm y machine-learning.
 
 TODO:
